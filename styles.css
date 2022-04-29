@@ -53,15 +53,18 @@ html, body {
 
 .main-header {
     background-color: rgba(0, 0, 0, .6);
-    background-image: url("Images/Header Background.jpg");
+    background-image: url("Images/mall.jpg");
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 30px;
+    /* background-position: 100px 5px; */
+    height : 70vh;
+    background-position: right 35% bottom 25%;
 }
 
 .band-name {
     text-align: center;
-    margin: 0;
+    margin: 30px 0 0 0;
     font-size: 4em;
     font-family: "Booter - Zero Zero";
     font-weight: normal;
@@ -130,7 +133,7 @@ html, body {
 }
 
 .btn-header {
-    margin: .5em 15% 2em 15%;
+    margin: 0.5em 15% 2em 15%;
     color: white;
     border: 2px solid #2D9CDB;
     background-color: rgba(255, 255, 255, .1);
@@ -218,6 +221,7 @@ html, body {
 
 .shop-item-image {
     height: 250px;
+    width : 250px;
 }
 
 .shop-item-details {
